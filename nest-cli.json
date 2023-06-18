@@ -4,5 +4,16 @@
   "sourceRoot": "src",
   "compilerOptions": {
     "deleteOutDir": true
+  },
+  "projects": {
+    "app": {
+      "type": "application",
+      "root": "apps/app",
+      "sourceRoot": "apps/app/src",
+      "entryFile": "main",
+      "compilerOptions": {
+        "tsConfigPath": "apps/app/tsconfig.app.json"
+      }
+    }
   }
 }
